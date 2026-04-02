@@ -6,7 +6,7 @@ function validateData() {
     { id: "last-name", regex: /^[A-Z][a-zA-Z' ]*$/, errorId: "lastNameResult", errorMsg: "Invalid entry (e.g. Smith or O'Neil)." },
     { id: "phone", regex: /^\d{3} \d{3}-\d{4}$/, errorId: "phoneResult", errorMsg: "Invalid entry (e.g. XXX XXX-XXXX)." },
     { id: "email", regex: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/, errorId: "emailResult", errorMsg: "Invalid entry (e.g. jsmith@yahoo.com)." },
-    { id: "url", regex: /^https:\/\/[^\/]+\/.*~.*\/$/, errorId: "urlResult", errorMsg: "Invalid entry (e.g. https://www.website.com/~/)." }
+    /*{ id: "url", regex: /^https:\/\/[^\/]+\/.*~.*\/$/, errorId: "urlResult", errorMsg: "Invalid entry (e.g. https://www.website.com/~/)." }*/
   ];
 
   let validated = true;
@@ -102,12 +102,12 @@ function displayUserInputs() {
     const lastName = document.getElementById("last-name").value;
     const phone = document.getElementById("phone").value;
     const email = document.getElementById("email").value;
-    const url = document.getElementById("url").value;
+    /*const url = document.getElementById("url").value;*/
   
     document.getElementById("yourName").textContent = `Name: ${firstName} ${lastName}`;
     document.getElementById("yourPhone").textContent = `Phone: ${phone}`;
     document.getElementById("yourEmail").textContent = `Email: ${email}`;
-    document.getElementById("yourURL").textContent = `URL: ${url}`;
+    /*document.getElementById("yourURL").textContent = `URL: ${url}`;*/
   }
 
 function setTextContent(id, text) {
