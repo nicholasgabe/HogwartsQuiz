@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey - Nicholas Gabella</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <h1>Hogwarts House Quiz</h1>
+    <div class="sidebar">
+        <h2>More on <br> Harry Potter:</h2>
+        <p class="tab">'What is Your Patronus?' Quiz</p>
+        <p class="tab">All About the Wizard World</p>
+        <p class="tab">Magical Creatures Encyclopedia</p>
+    </div>
+    <div id="view1">
+      <!--<form action="php">-->
+      <div class="info">
+        <h2>Personal Information</h2>
+        <p class="info-desc">
+          Please match the requested format when filling out your information.
+        </p>
+        <div class="info-input">
+          First Name: <input type="text" id="first-name" placeholder="John" />
+          <div class="result" id="firstNameResult"></div>
+          Last Name: <input type="text" id="last-name" placeholder="Smith" />
+          <div class="result" id="lastNameResult"></div>
+          Phone Number:
+          <input type="text" id="phone" placeholder="XXX XXX-XXXX" />
+          <div class="result" id="phoneResult"></div>
+          Email Address:
+          <input type="text" id="email" placeholder="jsmith@yahoo.com" />
+          <div class="result" id="emailResult"></div>
+          UCF Student Server URL:
+          <input
+            type="text"
+            id="url"
+            placeholder="https://www.website.com/~/"
+          />
+          <div class="result" id="urlResult"></div>
+          <br />
+          <div class="info-button">
+            <button id="info-button">Next</button>
+            <script src="js/process_form.js"></script>
+          </div>
+        </div>
+      </div>
+      <!--</form>-->
+    </div>
+    <div id="view2">
+      <div class="survey">
+        <h2>What is Your Hogwarts House?</h2>
+        <div class="questions">
+          <!--Question 1-->
+          <p>Choose an element:</p>
+          <input type="radio" name="q1" id="h" /> Earth <br />
+          <input type="radio" name="q1" id="s" /> Water <br />
+          <input type="radio" name="q1" id="g" /> Fire <br />
+          <input type="radio" name="q1" id="r" /> Air <br />
+          <br />
+          <!--Question 2-->
+          <p>Which pet are you most likely to have?</p>
+          <input type="radio" name="q2" id="s" /> Snake <br />
+          <input type="radio" name="q2" id="g" /> Cat <br />
+          <input type="radio" name="q2" id="r" /> Owl <br />
+          <input type="radio" name="q2" id="h" /> Toad <br />
+          <br />
+          <!--Question 3-->
+          <p>How do you spend your free time?</p>
+          <input type="radio" name="q3" id="r" /> Reading books <br />
+          <input type="radio" name="q3" id="g" /> Hanging out with friends
+          <br />
+          <input type="radio" name="q3" id="h" /> Tending to your plants <br />
+          <input type="radio" name="q3" id="s" /> Nurturing your skills <br />
+          <br />
+          <!--Question 4-->
+          <p>What subject intrigues you the most?</p>
+          <input type="radio" name="q4" id="r" /> Care of Magical Creatures
+          <br />
+          <input type="radio" name="q4" id="s" /> History of Magic <br />
+          <input type="radio" name="q4" id="h" /> Herbology <br />
+          <input type="radio" name="q4" id="g" /> Defense Against the Dark Arts
+          <br />
+          <br />
+          <!--Question 5-->
+          <p>Where would you rather be?</p>
+          <input type="radio" name="q5" id="g" /> On the Quidditch field <br />
+          <input type="radio" name="q5" id="h" /> Near the Kitchen <br />
+          <input type="radio" name="q5" id="r" /> The Astronomy Tower <br />
+          <input type="radio" name="q5" id="s" /> In the Dungeons <br />
+          <br />
+        </div>
+        <div id="quizCheck"></div>
+        <div class="survey-button">
+          <button id="survey-button">Get Sorted!</button>
+          <script src="js/process_form.js"></script>
+        </div>
+      </div>
+    </div>
+    <div id="view3">
+      <div class="badge">
+        <div class="result-image">
+          <div id="img1">
+            <img src="img/gryffindor.png" alt="Gryffindor" width="300px" />
+            <h3 class="g">Gryffindor</h3>
+          </div>
+          <div id="img2">
+            <img
+              id="img2"
+              src="img/slytherin.png"
+              alt="Slytherin"
+              width="300px"
+            />
+            <h3 class="s">Slytherin</h3>
+          </div>
+          <div id="img3">
+            <img
+              id="img3"
+              src="img/ravenclaw.png"
+              alt="Ravenclaw"
+              width="300px"
+            />
+            <h3 class="r">Ravenclaw</h3>
+          </div>
+          <div id="img4">
+            <img
+              id="img4"
+              src="img/hufflepuff.png"
+              alt="Hufflepuff"
+              width="300px"
+            />
+            <h3 class="h">Hufflepuff</h3>
+          </div>
+        </div>
+        <div id="yourName"></div>
+        <div id="yourPhone"></div>
+        <div id="yourEmail"></div>
+        <div id="yourURL"></div>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>Created for DIG 3716c by Nicholas Gabella</p>
+    </footer>
+  </body>
+</html>

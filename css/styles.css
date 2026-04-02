@@ -1,0 +1,236 @@
+body {
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: #031930;
+    background-image: url(https://i.redd.it/188c7ay8xw891.jpg);
+    background-size: cover;
+    margin: 0px;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 3px;
+    font-size: 50px;
+    border: 2px solid #031930;
+    border-radius: 20px;
+    background-color: #89b1b798;
+    max-width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+#view1 {
+    display: block;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    max-width: fit-content;
+    /*background-color: rgba(148, 172, 172, 0.603);*/
+    margin: auto;
+}
+
+.info {
+    display: block;
+    padding: 40px;
+    border: 2px solid #031930;
+    border-radius: 20px;
+    background-color: #89b1b798;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-desc {
+    display: block;
+    font-size: 16px;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.info-input h2 {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.info-input {
+    display: inline-block;
+    text-align: right;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.info-button {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-input input {
+    border: 1px solid rgb(93, 93, 93);
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 185px;
+}
+
+.result {
+    margin: 0px;
+    padding: 0px;
+    line-height: 20px;
+    color: rgb(163, 0, 0);
+    font-size: 14px;
+}
+
+#view2 {
+    display: none;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    max-width: fit-content;
+    /*background-color: rgba(148, 172, 172, 0.603);*/
+    margin: auto;
+}
+
+.survey {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid #031930;
+    border-radius: 20px;
+    background-color: #89b1b798;
+    padding: 40px;
+}
+
+.survey h2 {
+    margin-top: 0px;
+}
+
+.survey-button {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.questions {
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.questions p {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#quizCheck {
+    margin: 0px;
+    padding: 0px;
+    line-height: 20px;
+    font-size: 15px;
+    color: rgb(163, 0, 0);
+    font-weight: bold;
+}
+
+#view3 {
+    display: none;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    max-width: fit-content;
+    margin: auto;
+}
+
+.badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid #031930;
+    border-radius: 20px;
+    background-color: #89b1b798;
+    padding: 40px;
+    flex-direction: column;
+    max-width: fit-content;
+    line-height: 30px;
+}
+
+.result-image {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.g {
+    color: #781C15;
+}
+.s {
+    color: #1E4422;
+}
+.r {
+    color: #1B4E6C;
+}
+.h {
+    color: #D7AD27;
+}
+
+button {
+    border: 1px solid rgb(93, 93, 93);
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    width: 175px;
+    height: 380px; 
+    padding: 40px;
+    border: 2px solid #031930;
+    border-radius: 20px;
+    background-color: #89b1b798;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab {
+    padding: 20px;
+    background-color: #dbdbdb;
+    border: 1px solid rgb(93, 93, 93);
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tab:hover {
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 135px;
+    padding: 10px;
+    background-color: #89b1b798;
+    border-top: 2px solid #031930;
+
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+    color: black;
+}
